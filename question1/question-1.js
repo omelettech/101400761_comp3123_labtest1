@@ -1,3 +1,4 @@
+console.log("Question 1")
 async function lowerCaseWords(arr){
     let new_arr=[]
     return new Promise((resolve,reject)=>{

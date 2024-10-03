@@ -1,3 +1,4 @@
+console.log("question 2")
 function resolvedPromise(){
     return new Promise((resolve)=>{
         setTimeout(()=>{

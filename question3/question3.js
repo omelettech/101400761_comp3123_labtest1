@@ -1,4 +1,5 @@
 //Remove log files
+console.log("question 3")
 const fs = require("fs")
 const crypto = require("crypto");
 
@@ -50,7 +51,7 @@ function ChangeLogFolder() {
         } else {
             //file doesnt exist so create one
             createLogDir()
-                .then((msg) => {
+                .then(() => {
                     create10LogFiles()
                 })
                 .catch()
